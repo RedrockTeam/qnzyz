@@ -21,7 +21,7 @@
 
 	//数据库连接
 	define('HOST','localhost');
-	define('DBNAME','weixin_rootervote');
+	define('DBNAME','weixin_qnzyz2014');
 	define('USER','redrock');
 	define('PASSWORD','hongyanredrock');
 

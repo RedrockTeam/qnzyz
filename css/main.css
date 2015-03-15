@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif; }
+
+.container {
+  min-height: 20em;
+  padding-bottom: 4em;
+  padding-left: 0;
+  padding-right: 0; }
+  .container .title {
+    background: url("../images/title.png") repeat-x;
+    background-color: #fd687a;
+    background-position: 0 90%; }
+    .container .title h3 {
+      font-family: "sans-serif";
+      color: #ffffff;
+      font-size: 1.6em;
+      font-weight: normal;
+      margin: 0.5em 0;
+      text-align: center; }
+  .container .logo {
+    position: relative;
+    min-height: 1px;
+    background-size: 100%; }
+    .container .logo .img_wrapper {
+      width: 100%; }
+    .container .logo .days {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+      position: absolute;
+      width: 7%;
+      height: 19%;
+      background-color: #fff;
+      left: 70.5%;
+      bottom: 10%; }
+      .container .logo .days span {
+        font-size: 1.3em;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: inline-block;
+        color: #99d4f7; }
+    .container .logo img {
+      width: 100%; }
+  .container .lottery {
+    background-color: #979797;
+    min-height: 5em;
+    width: 100%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em; }
+    .container .lottery p {
+      line-height: 200%;
+      color: #fff;
+      margin-bottom: 0; }
+    .container .lottery .lottery_button {
+      filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='$start',endColorStr='#$startColor',gradientType='1');
+      background: -moz-linear-gradient(top, #ff8669, #ff6d6c);
+      background: -o-linear-gradient(top, #ff8669, #ff6d6c);
+      background: -webkit-linear-gradient(top, #ff8669, #ff6d6c);
+      width: 30%;
+      margin: 0 auto;
+      padding: 0.2em 0;
+      font-size: 1.5em;
+      color: #fff;
+      text-align: center;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      border-radius: 6px; }
+      .container .lottery .lottery_button a {
+        color: inherit; }
+  .container .line {
+    position: relative;
+    top: -8px;
+    height: 1em;
+    background-color: #f4f4f4;
+    border-bottom: 3px soild #e1e1e1; }
+  .container .rules {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #efefef;
+    border: 1px solid #e3e7e7;
+    min-height: 5em;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.4em; }
+    .container .rules h2 {
+      margin: 5px 0;
+      text-indent: 1em;
+      font-weight: normal;
+      color: #898888;
+      font-size: 1.8em; }
+    .container .rules ul {
+      margin: 5px 0; }
+    .container .rules ul li {
+      display: block;
+      list-style: none;
+      color: #898888;
+      font-size: 0.7em; }
+  .container .troopes_container .troopes {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #e3e7e7;
+    padding: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    width: 90%;
+    min-height: 8em; }
+    .container .troopes_container .troopes .statement {
+      padding: 5px 5px;
+      vertical-align: middle;
+      border-bottom: 2px solid #eee; }
+      .container .troopes_container .troopes .statement .head {
+        width: 22%;
+        display: inline-block;
+        vertical-align: middle; }
+        .container .troopes_container .troopes .statement .head img {
+          width: 100%; }
+      .container .troopes_container .troopes .statement .troope_info {
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 2.5%;
+        width: 70%;
+        *zoom: 1;
+        *display: inline; }
+        .container .troopes_container .troopes .statement .troope_info h3 {
+          font-size: 4.0vw;
+          margin: 1% 0;
+          color: #6c6c6c; }
+        .container .troopes_container .troopes .statement .troope_info p {
+          font-size: 3.4vw;
+          margin: 1% 0;
+          color: #a7a7a7; }
+    .container .troopes_container .troopes .panel {
+      width: 90%;
+      margin: 0 auto;
+      vertical-align: middle; }
+      .container .troopes_container .troopes .panel .heart {
+        width: 32%;
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 5px; }
+        .container .troopes_container .troopes .panel .heart a {
+          width: 35%;
+          display: inline-block; }
+          .container .troopes_container .troopes .panel .heart a img {
+            width: 100%; }
+        .container .troopes_container .troopes .panel .heart span {
+          font-size: 0.8em;
+          color: #6c6c6c; }
+  .container .troopes_container .voted {
+    background: url("../images/voted.png") no-repeat;
+    background-position: 100% 0; }
+  .container footer {
+    background-color: #e8e8e8; }
+    .container footer p {
+      color: #6c6c6c;
+      font-size: 3.4vw;
+      padding: 0 5%;
+      text-align: center; }
+
+.vote_success {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); }
+  .vote_success .vote_wrapper {
+    position: relative; }
+    .vote_success .vote_wrapper img {
+      top: 50%;
+      margin-left: -25%;
+      margin-top: 200px;
+      bottom: 50%;
+      width: 45%;
+      left: 50%;
+      right: 50%;
+      position: absolute; }
+  .vote_success .vote_fail {
+    position: relative; }
+    .vote_success .vote_fail img {
+      top: 50%;
+      margin-left: -15%;
+      margin-top: 200px;
+      bottom: 50%;
+      width: 70%;
+      left: 30%;
+      right: 50%;
+      position: absolute; }
+  .vote_success .close {
+    position: relative; }
+    .vote_success .close img {
+      top: 0;
+      padding-left: 2em;
+      padding-top: 1em;
+      padding-bottom: 2.3em;
+      background: url("../images/shadown.png") no-repeat;
+      bottom: 50%;
+      width: 4%;
+      right: 0;
+      position: absolute; }
+
+.send {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  min-height: 3.7em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  background: rgba(0, 0, 0, 0.4); }
+  .send .sendButton {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='$start',endColorStr='#$startColor',gradientType='1');
+    background: -moz-linear-gradient(top, #ff8669, #ff6d6c);
+    background: -o-linear-gradient(top, #ff8669, #ff6d6c);
+    background: -webkit-linear-gradient(top, #ff8669, #ff6d6c);
+    width: 30%;
+    margin: 0 auto;
+    padding: 0.5em 0;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px; }
+
+.headroom {
+  position: fixed;
+  bottom: -100px;
+  right: 0px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+  .headroom img {
+    width: 70%; }
+
+.headroom--unpinned {
+  bottom: 50px; }
+
+.headroom--pinned {
+  bottom: -100px; }

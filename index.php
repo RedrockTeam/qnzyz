@@ -36,24 +36,24 @@
 <body>
     <div class="container">
         <nav class="nav title">
-            <h3>啦啦队投票</h3>
+            <h3>优秀青年志愿者服务队评选</h3>
         </nav>
         <header class="nav logo">
             <div class="img_wrapper"><img src="./images/logo.png" alt="wrapper"/></div>
             <div class="days"><span id="count"><?php echo $logic->getDayNumToStartVote(); ?></span></div>
         </header>
         <section class="line"></section>
-        <section class="lottery">
-            <p>参加啦啦队投票抽大奖,您剩余的抽奖次数为<span id="lottery_count"><?php echo $remainDrawTime; ?></span>次,投一次票即可获得一次抽奖机会
-</p>
-            <div class="lottery_button"><a href="draw.php?openId=<?php echo $_GET['openId']; ?>">抽奖</a></div>
-        </section>
+<!--        <section class="lottery">-->
+<!--            <p>参加啦啦队投票抽大奖,您剩余的抽奖次数为<span id="lottery_count">--><?php //echo $remainDrawTime; ?><!--</span>次,投一次票即可获得一次抽奖机会-->
+<!--</p>-->
+<!--            <div class="lottery_button"><a href="draw.php?openId=--><?php //echo $_GET['openId']; ?><!--">抽奖</a></div>-->
+<!--        </section>-->
         <section class="rules">
             <h2>投票规则</h2>
             <ul>
                 <li>1. 所有关注重邮小帮手的用户均有权进行投票。</li>
-                <li>2. 每个账号每天只能投3次票，每次票必须选择5支队伍。</li>
-				<li>3. 投票时间：2014.4.10 0:00至2014.4.11 24:00</li>
+                <li>2. 每个账号每天只能投1次票，每次票必须选择5支队伍。</li>
+                <li>3. 投票时间：2015.3.21 19:00至2015.3.30 24:00</li>
             </ul>
         </section>
         <input type="hidden" id="openId" value="<?php echo $_GET['openId']; ?>" name="openId" />
@@ -78,10 +78,10 @@
                             <a href="<?php echo $value['roo_detail_href']; ?>"><img class="lazy" data-original="./images//troope.png" alt="Troope"/></a>
                             <span>队伍详情</span>
                         </div>
-                        <div class="heart">
-                            <a href="<?php echo $value['roo_small_video_href']; ?>"><img class="lazy" data-original="./images//TV.png" alt="Troope"/></a>
-                            <span>微视频</span>
-                        </div>
+<!--                        <div class="heart">-->
+<!--                            <a href="--><?php //echo $value['roo_small_video_href']; ?><!--"><img class="lazy" data-original="./images//TV.png" alt="Troope"/></a>-->
+<!--                            <span>微视频</span>-->
+<!--                        </div>-->
                     </div>
                 </section>
             <?php 

@@ -39,7 +39,7 @@
             <h3>优秀青年志愿者服务队评选</h3>
         </nav>
         <header class="nav logo">
-            <div class="img_wrapper"><img src="./images/logo.png" alt="wrapper"/></div>
+            <div class="img_wrapper"><img src="./images/logo.jpg" alt="wrapper"/></div>
             <div class="days"><span id="count"><?php echo $logic->getDayNumToStartVote(); ?></span></div>
         </header>
         <section class="line"></section>

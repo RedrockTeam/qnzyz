@@ -15,4 +15,4 @@ function checkOpenId($openId)
         return false;
     }
 }
-echo file_get_contents('http://hongyan.cqupt.edu.cn/MagicLoop/index.php?s=/addon/UserCenter/UserCenter/checkIsWatch/openid/1/token/gh_f16bd8b2bf8e');
+echo (string)checkOpenId('1');

@@ -282,9 +282,8 @@
 		* @return true/false
 		**/
 		public function checkOpenId($openId){
-			$result = file_get_contents('http://hongyan.cqupt.edu.cn/MagicLoop/index.php?s=/addon/UserCenter/UserCenter/checkIsWatch/openid/'.$openId.'/token/gh_f16bd8b2bf8e');
-            $ret = json_decode($result);
-			if($ret->exist){
+			$result = file_get_contents('http://hongyan.cqupt.edu.cn/MagicLoop/index.php?s=/addon/HyVote/HyVote/check/openid/'.$openId);
+			if($result){
 				return true;
 			}else{
 				return false;

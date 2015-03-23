@@ -218,6 +218,28 @@
 			}
 		}
 
+
+        /**
+         * 距离开始投票还有多少天
+         * @return $intervalDay 距离的天数
+         **/
+        public function getDayNumToEndVote(){
+            //先设置时区（中国）
+            date_default_timezone_set("PRC");
+
+            //得到今天凌晨0点的时间戳
+            $todayTime = strtotime(date('Y-m-d 00:00:00'));
+            $endVoteTime = strtotime(self::END_VOTE_TIME.' 18:00:00');
+
+            $intervalDay = (int)(($endVoteTime - $todayTime)/60/60/24);
+            //如果已经超过了就直接让间隔天数为0
+            if($intervalDay < 0){
+                $intervalDay = 0;
+            }
+
+            return $intervalDay;
+        }
+
 		/**
 		* 距离开始投票还有多少天
 		* @return $intervalDay 距离的天数

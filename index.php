@@ -41,7 +41,7 @@
         </nav>
         <header class="nav logo">
             <div class="img_wrapper"><img src="./images/logo.jpg" alt="wrapper"/></div>
-            <div class="days"><span id="count"><?php echo $logic->getDayNumToStartVote(); ?></span></div>
+            <div class="days"><span id="count"><?php echo $logic->getDayNumToEndVote(); ?></span></div>
         </header>
         <section class="line"></section>
 <!--        <section class="lottery">-->

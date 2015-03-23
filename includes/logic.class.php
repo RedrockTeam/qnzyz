@@ -282,7 +282,7 @@
 		* @return true/false
 		**/
 		public function checkOpenId($openId){
-			$result = $this->curl_get_contents(CHECK_OPENID_URL.'openid/'.$openId.'/token/gh_68f0a1ffc303');
+			$result = $this->curl_get_contents(CHECK_OPENID_URL.'openid/'.$openId.'/token/gh_f16bd8b2bf8e');
             $ret = json_decode($result);
 			if($ret['exist']){
 				return true;

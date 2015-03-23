@@ -11,7 +11,7 @@
 		//每天规定的投票次数
 		const VOTE_TIME_EVERYDAY = 1;
 		//开始投票的时间
-		const START_VOTE_TIME = '2015/3/21';
+		const START_VOTE_TIME = '2015/3/23';
 		//截止投票的时间
 		const END_VOTE_TIME = '2015/3/30';
 
@@ -228,7 +228,7 @@
 
 			//得到今天凌晨0点的时间戳
 			$todayTime = strtotime(date('Y-m-d 00:00:00'));
-			$startVoteTime = strtotime(self::START_VOTE_TIME.' 19:00:00');
+			$startVoteTime = strtotime(self::START_VOTE_TIME.' 18:00:00');
 
  			$intervalDay = (int)(($startVoteTime - $todayTime)/60/60/24);
 			//如果已经超过了就直接让间隔天数为0
@@ -249,7 +249,7 @@
         	date_default_timezone_set("PRC");
 
 			//开始投票的时间
-			$startVoteTime = strtotime(self::START_VOTE_TIME.' 19:00:00');
+			$startVoteTime = strtotime(self::START_VOTE_TIME.' 18:00:00');
 			//结束投票的时间
 			$endVoteTime = strtotime(self::END_VOTE_TIME.' 23:59:59');
 			//现在的时间

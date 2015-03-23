@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Liuchenling
- * Date: 3/23/15
- * Time: 11:53
- */
+
 function checkOpenId($openId)
 {
     $result = file_get_contents('http://hongyan.cqupt.edu.cn/MagicLoop/index.php?s=/addon/UserCenter/UserCenter/checkIsWatch/openid/' . $openId . '/token/gh_f16bd8b2bf8e');
@@ -15,4 +10,8 @@ function checkOpenId($openId)
         return false;
     }
 }
-echo (string)checkOpenId('1');
+if(checkOpenId('1')){
+    echo 123;
+}else{
+    echo 456;
+}

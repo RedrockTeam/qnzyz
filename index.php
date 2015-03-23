@@ -3,15 +3,17 @@
     define('IN_TG',true);
     //引入公共文件
     require dirname(__FILE__).'/includes/common.inc.php';
-    
-    //是否有$_GET['openid']
-    if(!isset($_GET['openId'])){
-        die("进入本页面的方式有误！请先用微信关注重邮小帮手，回复【我要投票】后进入本页面");
-    }
+
 
     //实例化逻辑处理对象
     $logic = Logic::getInstance();
-    
+
+
+//是否有$_GET['openid']
+if(!isset($_GET['openId']) || !$logic->checkOpenId($_GET['openId'])){
+    die("进入本页面的方式有误！请先用微信关注重邮青年，回复【我要投票】后进入本页面");
+}
+
     //得到所有的队伍信息
     $result = $logic->getAll();
 

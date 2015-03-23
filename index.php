@@ -14,10 +14,10 @@
     //查询此用户还剩多少次抽奖机会
     $remainDrawTime = $logic->getRemainDrawTimeForOpenId($_GET['openId']);
 
-    //是否有$_GET['openId']
-    if(!isset($_GET['openId']) || !$logic->checkOpenId($_GET['openId'])){
-        die("进入本页面的方式有误！请先用微信关注重邮青年，回复【我要投票】后进入本页面");
-    }
+//    //是否有$_GET['openId']
+//    if(!isset($_GET['openId']) || !$logic->checkOpenId($_GET['openId'])){
+//        die("进入本页面的方式有误！请先用微信关注重邮青年，回复【我要投票】后进入本页面");
+//    }
 ?>
 <!DOCTYPE html>
 <html>

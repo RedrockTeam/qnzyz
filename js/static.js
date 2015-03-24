@@ -137,7 +137,7 @@ jQuery(document).ready(function($){
 
     function voteHeart(e){
         e.preventDefault();
-        var count = $("#count").html();
+        var count = $("#count").data('start');
         if(parseInt(count) > 0){
             alert("Sorry, 貌似活动尚未开放!");
             return false;

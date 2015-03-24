@@ -11,7 +11,7 @@
 		//每天规定的投票次数
 		const VOTE_TIME_EVERYDAY = 1;
 		//开始投票的时间
-		const START_VOTE_TIME = '2015/3/24';
+		const START_VOTE_TIME = '2014/3/24';
 		//截止投票的时间
 		const END_VOTE_TIME = '2015/3/30';
 

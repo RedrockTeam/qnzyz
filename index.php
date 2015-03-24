@@ -24,7 +24,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>优秀青年志愿者服务队评选！</title>
+    <title>优秀青年志愿者服务队评选投票!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -37,7 +37,7 @@
 <body>
     <div class="container">
         <nav class="nav title">
-            <h3>优秀青年志愿者服务队评选</h3>
+            <h3>优秀青年志愿者服务队评选投票</h3>
         </nav>
         <header class="nav logo">
             <div class="img_wrapper"><img src="./images/logo.jpg" alt="wrapper"/></div>
